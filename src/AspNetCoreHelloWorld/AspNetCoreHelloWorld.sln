@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreHelloWorld", "AspNetCoreHelloWorld\AspNetCoreHelloWorld.csproj", "{53E176E0-FFE5-42E4-A8DC-49D8CC25427A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53E176E0-FFE5-42E4-A8DC-49D8CC25427A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53E176E0-FFE5-42E4-A8DC-49D8CC25427A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53E176E0-FFE5-42E4-A8DC-49D8CC25427A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53E176E0-FFE5-42E4-A8DC-49D8CC25427A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A251CC91-CC58-4F7F-A331-CF228DF8333D}
+	EndGlobalSection
+EndGlobal
