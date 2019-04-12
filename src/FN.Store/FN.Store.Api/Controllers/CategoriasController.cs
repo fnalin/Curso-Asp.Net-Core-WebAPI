@@ -26,6 +26,7 @@ namespace FN.Store.Api.Controllers
         }
 
         [HttpGet("{id}", Name = "GetCategoriaById")]
+        [Produces("application/json", "application/xml")]
         public async Task<IActionResult> GetById(int id)
         {
             var data = await _categoriaRepository.GetAsync(id);
