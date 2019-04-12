@@ -10,5 +10,10 @@ namespace FN.Store.Domain.Entities
 
         public ICollection<Produto> Produtos { get; set; }
 
+        public void Update(string nome, string descricao)
+        {
+            Nome = nome;
+            Descricao = descricao;
+        }
     }
 }
